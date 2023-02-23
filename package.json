@@ -1,0 +1,30 @@
+{
+  "name": "star-wars-quotes",
+  "version": "1.0.0",
+  "description": "This is a star wars quote made with node.js, express, html, css ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AristotelisPallasidis/star-wars-quotes.git"
+  },
+  "author": "Aristotelis Pallasidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AristotelisPallasidis/star-wars-quotes/issues"
+  },
+  "homepage": "https://github.com/AristotelisPallasidis/star-wars-quotes#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
