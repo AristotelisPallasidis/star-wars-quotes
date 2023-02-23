@@ -53,3 +53,7 @@ I normally use Mongoose (which is a framework for MongoDB) when I use MongoDB. I
 # Install mongoDB
 
 npm install mongodb --save
+
+# Install dotenv
+
+npm install dotenv --save
