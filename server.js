@@ -13,7 +13,6 @@ app.use(express.static('public'))
 app.use(express.json())
 
 
-connectionString = 'mongodb+srv://aristotelis:aristotelis-star-wars@cluster0.wqbafcg.mongodb.net/star-wars-quotes?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString,{ 
     useNewUrlParser: true, 
